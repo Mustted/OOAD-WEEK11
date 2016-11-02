@@ -14,7 +14,7 @@
 
   @enduml
 ```
-<img src="">
+<img src="https://github.com/Mustted/OOAD-WEEK11/blob/master/Homework/State1.png?raw=true">
 
 ----------------------------------------------------------------
   State 2
@@ -44,7 +44,7 @@
   Active --> [*]
   @enduml
 ```
-<img src="">
+<img src="https://github.com/Mustted/OOAD-WEEK11/blob/master/Homework/State2.png?raw=true">
 
 ----------------------------------------------------------------
   State 3
@@ -64,7 +64,7 @@
   @enduml
 
 ```
-<img src="">
+<img src="https://github.com/Mustted/OOAD-WEEK11/blob/master/Homework/State3.png?raw=true">
 
 ----------------------------------------------------------------
   State 4
@@ -87,7 +87,7 @@
   @enduml
   
 ```
-<img src="">
+<img src="https://github.com/Mustted/OOAD-WEEK11/blob/master/Homework/State4.png?raw=true">
 
 ----------------------------------------------------------------
   State 5
@@ -107,6 +107,6 @@
   @enduml
 
 ```
-<img src="">
+<img src="https://github.com/Mustted/OOAD-WEEK11/blob/master/Homework/State5.png?raw=true">
 
 ----------------------------------------------------------------
