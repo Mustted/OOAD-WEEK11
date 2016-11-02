@@ -47,26 +47,65 @@
 <img src="">
 
 ----------------------------------------------------------------
- State 3
+  State 3
   Code
 ```
+  @startuml
+
+  [*] -right-> Input
+  Input : insert smart card
+
+  Input -> Read
+  Read : Reading data
+
+  Read -right-> Display
+  Display -right-> [*]
+
+  @enduml
+
+```
+<img src="">
+
+----------------------------------------------------------------
+  State 4
+  Code
+```
+  @startuml
+  [*] --> Active
+
+  state Active {
+    [*] ->Program
+    Program --> AllProgram 
+    --
+    [*] -->Internet
+    Internet --> Safari 
+    --
+    [*] -->MSOffice
+    MSOffice --> Word 
+  }
+
+  @enduml
   
 ```
 <img src="">
 
 ----------------------------------------------------------------
-State 4
+  State 5
   Code
 ```
-  
-```
-<img src="">
+  @startuml
+  [*] -->Address
+  Address --> Data
 
-----------------------------------------------------------------
-State 5
-  Code
-```
-  
+  note left of Address : Address data
+
+  note right of Data
+    Seaching Address Data
+    Select Data
+  end note
+
+  @enduml
+
 ```
 <img src="">
 
